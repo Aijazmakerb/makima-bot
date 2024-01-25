@@ -9,6 +9,10 @@ const PORT = process.env.PORT || 3000;
 
 const whitelistedIp = process.env.WHITELISTED_IP.split(',');
 
+app.get('/', (req, res) => {
+    res.status(200).send("You should not be here");
+})
+
 app.get('/details', async(req, res) => {
     const { animeId } = req.query;
     
