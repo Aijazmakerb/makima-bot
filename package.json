@@ -1,0 +1,17 @@
+{
+  "name": "makima-bot",
+  "version": "1.0.0",
+  "description": "A bot for my website makima.live",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "test": "node --watch src/index.js"
+  },
+  "author": "graveYARD studios",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2"
+  }
+}
